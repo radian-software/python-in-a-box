@@ -14,9 +14,7 @@ app.ws("/ws", (ws) => {
   term.on("data", (data) => {
     try {
       ws.send(data);
-    } catch (err) {
-      //
-    }
+    } catch (err) {}
   });
   ws.on("message", (data) => term.write(data));
 });
