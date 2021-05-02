@@ -4,5 +4,10 @@
   "description": "Python in the cloud, 20 lines of code",
   "author": "Radon Rosborough <radon.neon@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "node-pty": "^0.10.1"
+  }
 }
