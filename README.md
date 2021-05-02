@@ -5,7 +5,7 @@
 This is an interactive online Python REPL, implemented in JavaScript
 using
 
-* **nine** lines of code on the frontend
+* **thirteen** lines of code on the frontend
 * **seventeen** lines of code on the backend
 
 and based on the open-source libraries

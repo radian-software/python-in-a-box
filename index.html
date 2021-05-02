@@ -30,7 +30,11 @@
     <script src="https://unpkg.com/xterm-addon-fit@0.5.0/lib/xterm-addon-fit.js"></script>
     <script>
       const term = new Terminal();
-      const socket = new WebSocket(`ws://${document.location.host}/ws`);
+      const socket = new WebSocket(
+        `${document.location.protocol === "http:" ? "ws" : "wss"}://${
+          document.location.host
+        }/ws`
+      );
 
       const websocketAddon = new AttachAddon.AttachAddon(socket);
       const resizeAddon = new FitAddon.FitAddon();
