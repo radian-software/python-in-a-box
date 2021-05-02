@@ -6,7 +6,6 @@
     <link
       rel="stylesheet"
       href="https://unpkg.com/xterm@4.11.0/css/xterm.css"
-      integrity="sha256-uTIrmf95e6IHlacC0wpDaPS58eWF314UC7OgdrD6AdU="
       crossorigin="anonymous"
     />
   </head>
@@ -19,8 +18,8 @@
       const term = new Terminal();
       const socket = new WebSocket(`ws://${document.location.host}/ws`);
 
-      const websocketAddon = new AttachAddon(socket);
-      const resizeAddon = new FitAddon();
+      const websocketAddon = new AttachAddon.AttachAddon(socket);
+      const resizeAddon = new FitAddon.FitAddon();
 
       term.loadAddon(websocketAddon);
       term.loadAddon(resizeAddon);
