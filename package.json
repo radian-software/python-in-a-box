@@ -1,0 +1,8 @@
+{
+  "name": "python-in-a-box",
+  "version": "0.1.0",
+  "description": "Python in the cloud, 20 lines of code",
+  "author": "Radon Rosborough <radon.neon@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
