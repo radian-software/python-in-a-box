@@ -8,7 +8,7 @@ const app = express();
 
 ws(app);
 
-app.get("/", (req, res) => res.sendFile("index.html"));
+app.get("/", (req, res) => res.sendFile(`${__dirname}/index.html`));
 app.ws("/ws", (ws) => {
   const term = pty.spawn("python3", [], { name: "xterm-color" });
   term.on("data", ws.send);
