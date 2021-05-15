@@ -6,7 +6,7 @@ This is an interactive online Python REPL, implemented in JavaScript
 using
 
 * **thirteen** lines of [code on the frontend](https://github.com/raxod502/python-in-a-box/blob/master/index.html#L32-L48)
-* **seventeen** lines of [code on the backend](https://github.com/raxod502/python-in-a-box/blob/master/server.js)
+* **seventeen** lines of [code on the backend](https://github.com/raxod502/python-in-a-box/blob/master/server.js#L1-L23)
 
 and based on the open-source libraries
 
