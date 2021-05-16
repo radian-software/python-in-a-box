@@ -1,6 +1,6 @@
 # Python in a Box
 
-<https://python-in-a-box.herokuapp.com/>
+Try it online: <https://python-in-a-box.herokuapp.com/>
 
 This is an interactive online Python REPL, implemented in JavaScript
 using
@@ -13,3 +13,5 @@ and based on the open-source libraries
 * [Express](https://expressjs.com/)
 * [node-pty](https://github.com/microsoft/node-pty)
 * [Xterm.js](https://xtermjs.org/)
+
+Read the blog post: [How Replit used legal threats to kill my open-source project](https://intuitiveexplanations.com/tech/replit/)
