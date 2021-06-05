@@ -14,4 +14,4 @@ and based on the open-source libraries
 * [node-pty](https://github.com/microsoft/node-pty)
 * [Xterm.js](https://xtermjs.org/)
 
-Read the blog post: [How Replit used legal threats to kill my open-source project](https://intuitiveexplanations.com/tech/replit/).
+Read the blog post, [How Replit used legal threats to kill my open-source project](https://intuitiveexplanations.com/tech/replit/).
