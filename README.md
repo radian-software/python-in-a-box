@@ -15,3 +15,6 @@ and based on the open-source libraries
 * [Xterm.js](https://xtermjs.org/)
 
 Read the blog post, [How Replit used legal threats to kill my open-source project](https://intuitiveexplanations.com/tech/replit/).
+
+
+Do you have donate button?
