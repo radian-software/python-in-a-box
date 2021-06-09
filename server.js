@@ -11,7 +11,7 @@ ws(app);
 app.get("/", (req, res) => res.sendFile(`${__dirname}/index.html`));
 app.ws("/ws", (ws) => {
   const term = pty.spawn("python3", [], { name: "xterm-color" });
-  setTimeout(() => term.kill(), 3600); // session timeout
+  setTimeout(() => term.kill(), 3600 * 1000); // session timeout
   term.on("data", (data) => {
     try {
       ws.send(data);
