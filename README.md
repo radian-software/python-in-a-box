@@ -15,3 +15,9 @@ and based on the open-source libraries
 * [Xterm.js](https://xtermjs.org/)
 
 Read the blog post, [How Replit used legal threats to kill my open-source project](https://intuitiveexplanations.com/tech/replit/).
+
+Also, this should go without saying, but **letting people run
+unsandboxed code on your server is incredibly stupid**. Do not ever,
+ever do this in production. This repository demonstrates a proof of
+concept only, and does *not* reflect appropriate ethical practices for
+handling of user data.
