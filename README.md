@@ -21,3 +21,7 @@ unsandboxed code on your server is incredibly stupid**. Do not ever,
 ever do this in production. This repository demonstrates a proof of
 concept only, and does *not* reflect appropriate ethical practices for
 handling of user data.
+
+If you'd like to see a service that actually *does* attempt to run
+user code in a secure manner, please check out
+[Riju](https://github.com/raxod502/riju).
