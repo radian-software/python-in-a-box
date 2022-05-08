@@ -2,7 +2,7 @@
   "name": "python-in-a-box",
   "version": "0.1.0",
   "description": "Python in the cloud, 30 lines of code",
-  "author": "Radon Rosborough <radon.neon@gmail.com>",
+  "author": "Radian LLC <contact+python-in-a-box@gmail.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {
