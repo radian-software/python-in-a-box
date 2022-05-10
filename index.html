@@ -27,6 +27,12 @@
       >
     </p>
     <div id="terminal"></div>
+    <p style="margin-top: 10px">
+      Note: if the terminal has frozen, reload the page. This happens because
+      the frontend does not have any logic to automatically reconnect when the
+      websocket connection is broken, which happens frequently in modern
+      browsers when you switch to a different tab.
+    </p>
     <script src="https://unpkg.com/xterm@4.11.0/lib/xterm.js"></script>
     <script src="https://unpkg.com/xterm-addon-attach@0.6.0/lib/xterm-addon-attach.js"></script>
     <script src="https://unpkg.com/xterm-addon-fit@0.5.0/lib/xterm-addon-fit.js"></script>
