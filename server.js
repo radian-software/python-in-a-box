@@ -9,7 +9,12 @@ const html = fs.readFileSync("index.html");
 
 const app = express();
 
-ws(app);
+ws(app).getWss().on('connection', ws => {
+  ws.on('error', e => {
+    // prevents the app from crashing on a maliciously-crafted packet
+    console.error(e);
+  });
+});
 
 app.get("/", (req, res) => {
   res.setHeader("Content-Type", "text/html");
