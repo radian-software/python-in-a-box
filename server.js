@@ -9,12 +9,7 @@ const html = fs.readFileSync("index.html");
 
 const app = express();
 
-ws(app).getWss().on('connection', ws => {
-  ws.on('error', e => {
-    // prevents the app from crashing on a maliciously-crafted packet
-    console.error(e);
-  });
-});
+const expressWs = ws(app);
 
 app.get("/", (req, res) => {
   res.setHeader("Content-Type", "text/html");
@@ -30,5 +25,8 @@ app.ws("/ws", (ws) => {
   });
   ws.on("message", (data) => term.write(data));
 });
+
+// Prevent malformed packets from crashing server.
+expressWs.getWss().on("connection", (ws) => ws.on("error", console.error));
 
 app.listen(parseInt(process.env.PORT), "0.0.0.0");
