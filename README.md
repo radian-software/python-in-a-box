@@ -25,3 +25,10 @@ handling of user data.
 If you'd like to see a service that actually *does* attempt to run
 user code in a secure manner, please check out
 [Riju](https://github.com/raxod502/riju).
+
+*Note:* Please do not attempt to do malicious things with the hosted
+version of this application, including using it for free compute. It
+is running on an isolated Railway account that will automatically
+terminate service if the free-tier limits are exceeded or if abuse is
+registered. So all you will accomplish is taking the service offline
+for everyone else.
