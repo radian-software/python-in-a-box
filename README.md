@@ -1,6 +1,6 @@
 # Python in a Box
 
-Try it online: <https://python-in-a-box.herokuapp.com/>
+Try it online: <https://python-in-a-box.radian.codes/>
 
 This is an interactive online Python REPL, implemented in JavaScript
 using
